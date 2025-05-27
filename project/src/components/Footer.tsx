@@ -132,6 +132,15 @@ const Footer: React.FC = () => {
           <p className="text-gray-500">
             &copy; {currentYear} MG Auto Care - German Vehicle Specialists. All Rights Reserved.
           </p>
+          <p className="text-gray-500">
+            Powered by{" "}
+            <a
+              href="https://www.studiojuma.co.za"
+              className="font-bold bg-gradient-to-r from-pink-500 via-yellow-400 to-blue-500 bg-clip-text text-transparent"
+            >
+              Studio Juma
+            </a>
+          </p>
         </div>
       </div>
     </footer>

@@ -40,13 +40,6 @@ const Testimonials: React.FC = () => {
       vehicle: "Mercedes-Benz GLC300",
       content: "After being disappointed with dealership service, I found MG Auto Care. What a difference! They took the time to explain everything and fixed my Mercedes right the first time. Customer for life!",
       rating: 5
-    },
-    {
-      id: 5,
-      name: "Michael Thompson",
-      vehicle: "Porsche Cayenne",
-      content: "Finding someone who knows Porsche vehicles is difficult, but MG Auto Care exceeded my expectations. Professional service, fair pricing, and genuine expertise. Won't take my Cayenne anywhere else.",
-      rating: 5
     }
   ];
 

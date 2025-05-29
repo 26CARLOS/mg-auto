@@ -36,11 +36,6 @@ const Gallery: React.FC = () => {
       src: "https://images.pexels.com/photos/8985343/pexels-photo-8985343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       alt: "Mercedes-Benz engine service",
       category: "mercedes"
-    },
-    {
-      src: "https://images.pexels.com/photos/2684219/pexels-photo-2684219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      alt: "Porsche maintenance",
-      category: "porsche"
     }
   ];
 
@@ -58,7 +53,7 @@ const Gallery: React.FC = () => {
     document.body.style.overflow = 'auto';
   };
 
-  const categories = ['all', 'mercedes', 'bmw', 'audi', 'porsche', 'diagnostics'];
+  const categories = ['all', 'mercedes', 'bmw', 'audi', 'diagnostics'];
 
   return (
     <section id="gallery" className="section bg-gray-50">

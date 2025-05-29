@@ -17,20 +17,20 @@ function App() {
     // Add meta description for SEO
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW. Schedule your service today!';
+    metaDescription.content = 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi and VW. Schedule your service today!';
     document.head.appendChild(metaDescription);
     
     // Add other SEO meta tags
     const metaTags = [
-      { name: 'keywords', content: 'Mercedes-Benz repair, German car specialists, BMW service, Audi repair, Porsche maintenance, Pretoria mechanic, German auto care' },
+      { name: 'keywords', content: 'Mercedes-Benz repair, German car specialists, BMW service, Audi repair, VW repair, Pretoria mechanic, German auto care' },
       { property: 'og:title', content: 'MG Auto Care | German & Mercedes-Benz Specialists' },
-      { property: 'og:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
+      { property: 'og:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi and VW.' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.mgautocare.com' },
       { property: 'og:image', content: 'https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: 'MG Auto Care | German & Mercedes-Benz Specialists' },
-      { name: 'twitter:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
+      { name: 'twitter:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi and VW.' },
       { name: 'twitter:image', content: 'https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg' },
     ];
     
@@ -71,7 +71,7 @@ function App() {
         'Sa 09:00-15:00'
       ],
       'priceRange': '$$',
-      'servesCuisine': 'German Vehicles, Mercedes-Benz, BMW, Audi, Porsche, Volkswagen'
+      'servesCuisine': 'German Vehicles, Mercedes-Benz, BMW, Audi, Volkswagen'
     });
     document.head.appendChild(scriptTag);
     

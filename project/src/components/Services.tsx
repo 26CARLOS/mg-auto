@@ -16,7 +16,7 @@ const Services: React.FC = () => {
     },
     {
       title: "German Car Specialists",
-      description: "Expert service for BMW, Audi, Porsche, and Volkswagen vehicles.",
+      description: "Expert service for BMW, Audi and Volkswagen vehicles.",
       icon: <Wrench className="text-red-600\" size={36} />
     },
     {
@@ -62,7 +62,7 @@ const Services: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Our <span className="text-red-600">Services</span></h2>
           <p className="text-lg max-w-3xl mx-auto text-gray-600">
-            Specialized services for Mercedes-Benz and all German makes including BMW, Audi, Porsche, and Volkswagen.
+            Specialized services for Mercedes-Benz and all German makes including BMW, Audi and Volkswagen.
           </p>
         </div>
 

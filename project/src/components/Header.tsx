@@ -39,7 +39,7 @@ const Header: React.FC = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
-            <Logo />
+            <Logo isWhiteText={!isScrolled} />
           </div>
 
           {/* Desktop Navigation */}

@@ -2,7 +2,11 @@ import React from 'react';
 import { PenTool as Tool, Wrench } from 'lucide-react';
 import logoImg from '../assets/logo.png';
 
-const Logo: React.FC = () => (
+interface LogoProps {
+  isWhiteText?: boolean;
+}
+
+const Logo: React.FC<LogoProps> = ({ isWhiteText = false }) => (
   <div className="flex items-center">
     <div className="flex items-center mr-2">
       <img 
@@ -14,10 +18,10 @@ const Logo: React.FC = () => (
       />
     </div>
     <div>
-      <h1 className="text-xl font-bold leading-none text-navy-900">
+      <h1 className={`text-xl font-bold leading-none ${isWhiteText ? 'text-white' : 'text-navy-900'}`}>
         <span className="text-red-600">MG</span> Auto Care
       </h1>
-      <p className="text-xs text-gray-600 leading-none">German Vehicle Specialists</p>
+      <p className={`text-xs leading-none ${isWhiteText ? 'text-gray-200' : 'text-gray-600'}`}>German Vehicle Specialists</p>
     </div>
   </div>
 );

@@ -12,25 +12,25 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update page title for SEO
-    document.title = "MG Auto Care | German & Mercedes-Benz Specialists | Los Angeles";
+    document.title = "MG Auto Care | German & Mercedes-Benz Specialists | Pretoria";
     
     // Add meta description for SEO
     const metaDescription = document.createElement('meta');
     metaDescription.name = 'description';
-    metaDescription.content = 'Expert Mercedes-Benz and German vehicle repair in Los Angeles. Factory-trained specialists for BMW, Audi, Porsche, and VW. Schedule your service today!';
+    metaDescription.content = 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW. Schedule your service today!';
     document.head.appendChild(metaDescription);
     
     // Add other SEO meta tags
     const metaTags = [
-      { name: 'keywords', content: 'Mercedes-Benz repair, German car specialists, BMW service, Audi repair, Porsche maintenance, Los Angeles mechanic, German auto care' },
+      { name: 'keywords', content: 'Mercedes-Benz repair, German car specialists, BMW service, Audi repair, Porsche maintenance, Pretoria mechanic, German auto care' },
       { property: 'og:title', content: 'MG Auto Care | German & Mercedes-Benz Specialists' },
-      { property: 'og:description', content: 'Expert Mercedes-Benz and German vehicle repair in Los Angeles. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
+      { property: 'og:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
       { property: 'og:type', content: 'website' },
       { property: 'og:url', content: 'https://www.mgautocare.com' },
       { property: 'og:image', content: 'https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg' },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:title', content: 'MG Auto Care | German & Mercedes-Benz Specialists' },
-      { name: 'twitter:description', content: 'Expert Mercedes-Benz and German vehicle repair in Los Angeles. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
+      { name: 'twitter:description', content: 'Expert Mercedes-Benz and German vehicle repair in Pretoria. Factory-trained specialists for BMW, Audi, Porsche, and VW.' },
       { name: 'twitter:image', content: 'https://images.pexels.com/photos/3807386/pexels-photo-3807386.jpeg' },
     ];
     
@@ -55,11 +55,11 @@ function App() {
       'email': 'service@mgautocare.com',
       'address': {
         '@type': 'PostalAddress',
-        'streetAddress': '1234 Auto Center Drive',
-        'addressLocality': 'Los Angeles',
-        'addressRegion': 'CA',
-        'postalCode': '90001',
-        'addressCountry': 'US'
+        'streetAddress': '435 33rd Avenue',
+        'addressLocality': 'Pretoria',
+        'addressRegion': 'Gauteng',
+        'postalCode': '0186',
+        'addressCountry': 'ZA'
       },
       'geo': {
         '@type': 'GeoCoordinates',

@@ -25,8 +25,8 @@ const Contact: React.FC = () => {
                   <div>
                     <h4 className="font-medium text-navy-900">Our Location</h4>
                     <address className="not-italic text-gray-600">
-                      1234 Auto Center Drive<br />
-                      Los Angeles, CA 90001
+                      435 33rd Avenue Villeria<br />
+                      Pretoria, Gauteng 0186<br />
                     </address>
                   </div>
                 </div>

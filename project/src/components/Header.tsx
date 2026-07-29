@@ -53,7 +53,6 @@ const Header: React.FC = () => {
             ))}
           </nav>
 
-          {/* Call Now Button */}
           <div className="hidden md:flex items-center">
             <a 
               href="tel:+15551234567" 

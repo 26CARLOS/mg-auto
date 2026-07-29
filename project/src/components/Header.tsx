@@ -67,7 +67,7 @@ const Header: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="md:hidden">
+          <div className="md:hidden bg-white">
             <button
               onClick={toggleMenu}
               className={`p-2 rounded-md ${isScrolled ? 'text-navy-900' : 'text-white'}`}
